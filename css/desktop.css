@@ -2,7 +2,7 @@
 .flex-container {
   display: flex;
   background-color: transparent;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 .flex-container > div{
 border-radius: 25px;
