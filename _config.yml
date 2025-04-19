@@ -1,21 +1,21 @@
-title: Lythscript
+title: Lythseed
 tagline: Information Technology 
 author: Temitayo Olaleye-Otunla 
 description: Information Technology 
-name: Lythscript
+name: Lythseed
 markdown: kramdown
 twitter: 
-   username: lythscript
+   username: lythseed
    card: summary
 facebook:
-  publisher: https://facebook.com/lythscript
+  publisher: https://facebook.com/lythseed
 social:
-  name: Lythscript 
+  name: Lythseed
   links:
-    - https://x.com/lythscript
-    - https://www.facebook.com/lythscript
-    - https://www.linkedin.com/company/lythscript
-    - https://github.com/lythscript
+    - https://x.com/lythseed
+    - https://www.facebook.com/lythseed
+    - https://www.linkedin.com/company/lythseed
+    - https://github.com/lythseed
    
 permalink: /blog/:year/:month/:day/:title
 plugins:
