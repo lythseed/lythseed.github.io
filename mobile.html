@@ -8,14 +8,14 @@ description: Welcome to Lythseed
 <p>Welcome to Lythseed</p>
 
 <div class="tab">
-  <button class="tablinks" onclick="openTab(event,'downloads')" id="defaultOpen" >Downloads</button>
-  <button class="tablinks" onclick="openTab(event,'blog')" >Blog</button>
+  <button class="tablinks" onclick="openTab(event,'windows')" id="defaultOpen" >Downloads</button>
+  <button class="tablinks" onclick="openTab(event,'linux')" >Blog</button>
   <button class="tablinks" onclick="openTab(event,'license')" >License</button>
   <button class="tablinks" onclick="openTab(event,'about')" >About this site</button>
   
 </div>
 
-<div id="downloads" class="tabcontent">
+<div id="windows" class="tabcontent">
 
 
 <div class = "bdiv-container">
@@ -36,6 +36,19 @@ description: Welcome to Lythseed
   </div>
 </div>
 
+</div>
+
+<div id="linux" class="tabcontent">
+
+   <div class = "bdiv-container">
+  <h1>Software <font color="green">0.00</font></h1>
+	<hr>
+  <p>this software </p>
+  <div class = "bdiv">
+  <button class="xbutton">Download</button>
+  </div>
+</div>
+
 <div class = "bdiv-container">
   <h1>Software <font color="green">0.00</font></h1>
 	<hr>
@@ -43,19 +56,7 @@ description: Welcome to Lythseed
   <div class = "bdiv">
   <button class="xbutton">Download</button>
   </div>
-
 </div>
-
-</div>
-
-<div id="blog" class="tabcontent">
-<h1>Posts</h1>
-	<ul class="posts">
-
-	  {% for post in site.posts %}
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-	  {% endfor %}
-  </ul>
 
 </div>
 
